@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 public class Main
 {
     public static void main (String []args){
-        ListaEcuación l= new ListaEcuación();
+        Grupo l= new Grupo();
         int op=0;
         do{
             String eleccion=JOptionPane.showInputDialog(null, "Agregar ecuaciones\n1-Insertar\n2-Mostrar \n 3-Salir");
@@ -20,8 +20,9 @@ public class Main
                     String nombre;
                     int nota, carnet, promedio;
                     nombre=JOptionPane.showInputDialog(null,"Ingrese el nombre del estudiante");
-                    carnet=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese la nota"));
-                    nota=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese la nota"));                    
+                    carnet=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el carnet"));
+                    
+                    nota=Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese la nota"));
                     promedio= 0;
                     
                     l.insertar(new Estudiante(nombre, nota, carnet, promedio));
@@ -34,7 +35,7 @@ public class Main
                  break;
                 }
                 
-            }
+             }
         }while(op!=3);
 
     }

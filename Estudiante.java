@@ -20,7 +20,7 @@ public class Estudiante
     }
 
     public String toString(){
-        return "La información del estudiante es: "+getnombre()+ getnota()+ getcarnet()+ getpromedio();
+        return "La información del estudiante es: "+getnombre()+"/"+ getnota()+"/"+ getcarnet()+"/"+ getpromedio();
     }
    
     //Asignar la nombre.
@@ -43,7 +43,7 @@ public class Estudiante
 
     //Asignar la carnet.
     public int getcarnet(){
-        return promedio;
+        return carnet;
     }
 
     public void setcarnet(int carnet){
@@ -51,7 +51,7 @@ public class Estudiante
     }
     
     //Asignar Promedio
-     public int getpromedio(){
+    public int getpromedio(){
         return promedio;
     }
 
