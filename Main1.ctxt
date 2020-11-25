@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Main1
+comment0.text=\r\n\ Se\ encarga\ de\ invocar\ los\ metodos\ necesarios\ para\ poder\ crear\ una\ lista\ de\ n\u00FAmeros\ enteros\ e\ imprimirla.\r\n\ \r\n\ @author\ Hannsell\ Sol\u00EDs\ Ram\u00EDrez\r\n\ @version\ 21/11/2020\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

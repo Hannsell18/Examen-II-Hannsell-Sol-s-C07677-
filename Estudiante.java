@@ -11,22 +11,22 @@ public class Estudiante
     private String nombre;
     private int nota , carnet, promedio;
 
-    //Constructor. 
-    public Estudiante(String nombre,int nota,int carnet, int promedio){
+     //Constructor. 
+       public Estudiante(String nombre,int nota,int carnet, int promedio){
         this.nombre=nombre;
         this.nota=nota;
         this.carnet=carnet;
         this.promedio=promedio;
-    }
+      }
 
     public String toString(){
         return "La información del estudiante es: "+getnombre()+"/"+ getnota()+"/"+ getcarnet()+"/"+ getpromedio();
     }
-   
-    //Asignar la nombre.
-    public String getnombre(){
+
+     //Asignar la nombre.
+     public String getnombre(){
         return nombre;
-    }
+      }
 
     public void setnombre(String nombre){
         this.nombre=nombre;
@@ -49,7 +49,7 @@ public class Estudiante
     public void setcarnet(int carnet){
         this.carnet=carnet;
     }
-    
+
     //Asignar Promedio
     public int getpromedio(){
         return promedio;
