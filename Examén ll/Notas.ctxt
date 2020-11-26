@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Notas
+comment0.text=\r\n\ Se\ encarga\ de\ insertar\ nodos\ e\ imprimirlos\ de\ manera\ recursiva.\ \r\n\ \r\n\ @author\ Hannsell\ Sol\u00EDs\ Ram\u00EDrez.\r\n\ @version\ 21/11/2020\r\n
+comment1.params=
+comment1.target=Notas()
+comment2.params=
+comment2.target=void\ insertarNodo()
+comment3.params=
+comment3.target=void\ preparar()
+comment4.params=actual\ Total
+comment4.target=void\ Sumar(Nodo2,\ int)
+numComments=5
